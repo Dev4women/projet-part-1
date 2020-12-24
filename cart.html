@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single product - Couture Dz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.jpg" width="125px"></a>
+                    <p>Couture Dz</p>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Prestations</a></li>
+                        <li><a href="">A Propos</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Mon Compte</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="img/iconbasket.png" width="30px" height="30px"/></a>
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>           
+        </div>
+    </div>  
+  
+<!--cart items details-->
+<div class="top-bar">
+    <h1 class="title">Mon Panier</h1>
+  </div>
+  <div class="container2">
+    <div class="content">
+      <div class="ligne1">
+        <div class="produit"><img src="img/housse1mini.jpg" alt="Housse couette 1pl">Housse couette 1pl</div>
+        <div class="prix">2000 Da</div>
+        <div class="quantité">
+          <span class="decrease">-</span>
+          Quantité :
+          <input min="1" max="99" value="1" class="quant" />
+          <span class="increase">+</span>
+        </div>
+        <span class="delete">Supprimer</span>
+        <span class="img"
+          ><img
+            src="img/blackheart.png"
+            alt="like"
+            height="20px"
+            width="20px"
+        /></span>
+      </div>
+      <div class="ligne1">
+        <div class="produit"><img src="img/robemini.jpg" alt="Robe">Robe</div>
+        <div class="prix">5000 Da</div>
+        <div class="quantité">
+          <span class="decrease">-</span>
+          Quantité :
+          <input min="1" max="99" value="1" class="quant" />
+          <span class="increase">+</span>
+        </div>
+        <span class="delete">Supprimer</span>
+        <span class="img"
+          ><img
+            src="img/blackheart.png"
+            alt="like"
+            height="20px"
+            width="20px"
+        /></span>
+      </div>
+      <div class="ligne1">
+        <div class="produit"><img src="img/pantalonmini.jpg" alt="Pantalon">Pantalon</div>
+        <div class="prix">3000 Da</div>
+        <div class="quantité">
+          <span class="decrease">-</span>
+          Quantité :
+          <input min="1" max="99" value="1" class="quant" />
+          <span class="increase">+</span>
+        </div>
+        <span class="delete">Supprimer</span>
+        <span class="img"
+          ><img
+            src="img/redheart.png"
+            alt="like"
+            height="20px"
+            width="20px"
+        /></span>
+      </div>
+      <hr width="95%" size="2" color="black" />
+      <div class="total">
+        Total :            
+        <div class="prix-total">  0 Da</div>
+      </div>
+    </div>
+  </div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Téléchargez notre application</h3>
+                <p>Pour Android et IOS</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo.jpg">
+                <p>Couture Dz</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Affiliation</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - Couture Dz</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

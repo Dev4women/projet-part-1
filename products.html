@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Couture Dz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.jpg" width="125px"></a>
+                    <p>Couture Dz</p>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="products.html">Prestations</a></li>
+                        <li><a href="">A Propos</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Mon Compte</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="img/iconbasket.png" width="30px" height="30px"/></a>
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+           
+        </div>
+    </div>
+
+
+<!--featured products-->  
+<div class="small-container">    
+    <div class="row row-2">
+        <h2>Toutes nos prestations</h2>
+        <select>
+            <option>Sélection par défaut</option>
+            <option>Sélection par prix</option>
+            <option>Sélection par popularité</option>
+            <option>Sélection par évaluation</option>
+            <option>Sélection par vente</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img src="img/houssecouette1.jpg"/>
+            <h4>Housse de couette 1place</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>2000 da</p>
+        </div>
+        <div class="col-4">
+            <img src="img/houssecouette2.png"/>
+            <h4>Housse de couette 2places</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>3000 da</p>
+        </div>
+        <div class="col-4">
+            <img src="img/robe.jpg"/>
+            <h4>Robe</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>5000 da</p>
+        </div>
+        <div class="col-4">
+            <img src="img/pantalon.jpg"/>
+            <h4>Pantalon</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>3000 da</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="img/parure1.png"/>
+            <h4>Parure de lit 1place</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>3000 da</p>
+        </div>
+        <div class="col-4">
+            <img src="img/parure2.png"/>
+            <h4>Parure de lit 2places</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>4000 da</p>
+        </div>
+        <div class="col-4">
+            <img src="img/ourlets.jpg"/>
+            <h4>Ourlets</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>500 da</p>
+        </div>
+        <div class="col-4">
+            <img src="img/reprisesurmesure.jpg"/>
+            <h4>Reprise sur mesures</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>1000 da</p>
+        </div>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Téléchargez notre application</h3>
+                <p>Pour Android et IOS</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo.jpg">
+                <p>Couture Dz</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Affiliation</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - Couture Dz</p>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
